@@ -30,7 +30,7 @@ function Show-Menu {
     Write-Host "  2. 整个播放列表 (Playlist)"
     $mode = Read-Host "输入你的选择 (1 或 2)"
 
-    $getSubs = Read-Host "`n是否下载字幕 (中英双语)? (y/N)"
+    $getSubs = Read-Host "`n是否下载字幕 (英语)? (y/N)"
     $getCover = Read-Host "是否下载视频封面? (y/N)"
 
     # 初始化 yt-dlp 的参数列表
